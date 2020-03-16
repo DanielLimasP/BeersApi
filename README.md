@@ -3,7 +3,7 @@
 
 TODO: 
 
--Probar Update con verbo PUT o crear funcion de Update que utilice PATCH
+\n -Probar Update con verbo PUT o crear funcion de Update que utilice PATCH
 -Probar verbo DELETE
 -Construir aplicacion HTML sencilla de lado del cliente para acceder al API
 -Crear interfaz que permita al usuario subir y consultar imagenes
