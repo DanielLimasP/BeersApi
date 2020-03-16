@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using BeersApi.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -10,6 +11,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Options;
+using BeersApi.Services;
 
 namespace BeersApi
 {
@@ -25,7 +28,15 @@ namespace BeersApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
+            // Requiere using Microsoft.Extensions.Options
+            services.Configure<BeerDatabaseSettings>(
+                Configuration.GetSection(nameof(BeerDatabaseSettings)));
+            services.AddSingleton<IBeerDatabaseSettings>(sp =>
+                sp.GetRequiredService<IOptions<BeerDatabaseSettings>>().Value);
+
+            services.AddSingleton<BeerService>();
+
+            services.AddControllers().AddNewtonsoftJson(options => options.UseMemberCasing()); ;
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
