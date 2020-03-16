@@ -1,4 +1,4 @@
-# BeersApi Para la materia de Desarrollo de aplicaciones hibridas
+# BeersApi para la materia de Desarrollo de aplicaciones hibridas
 # Impartida por el Ing. Saul Salcido...
 
 TODO: 
