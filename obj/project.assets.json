@@ -229,7 +229,7 @@
           "System.Xml.XDocument": "4.3.0"
         }
       },
-      "Newtonsoft.Json/12.0.2": {
+      "Newtonsoft.Json/12.0.3": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
@@ -2141,10 +2141,10 @@
         "netstandard.library.nuspec"
       ]
     },
-    "Newtonsoft.Json/12.0.2": {
-      "sha512": "rTK0s2EKlfHsQsH6Yx2smvcTCeyoDNgCW7FEYyV01drPlh2T243PR2DiDXqtC5N4GDm4Ma/lkxfW5a/4793vbA==",
+    "Newtonsoft.Json/12.0.3": {
+      "sha512": "6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
       "type": "package",
-      "path": "newtonsoft.json/12.0.2",
+      "path": "newtonsoft.json/12.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2167,8 +2167,9 @@
         "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
         "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
         "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
-        "newtonsoft.json.12.0.2.nupkg.sha512",
-        "newtonsoft.json.nuspec"
+        "newtonsoft.json.12.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
       ]
     },
     "Newtonsoft.Json.Bson/1.0.2": {
@@ -6406,23 +6407,24 @@
       "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 3.1.2",
       "MongoDB.Bson >= 2.10.2",
       "MongoDB.Driver >= 2.10.2",
-      "MongoDB.Driver.Core >= 2.10.2"
+      "MongoDB.Driver.Core >= 2.10.2",
+      "Newtonsoft.Json >= 12.0.3"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\danyl\\.nuget\\packages\\": {}
+    "C:\\Users\\savb2\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\danyl\\Desktop\\8vo\\Aplicaciones moviles hibridas\\BeersApi\\BeersApi\\BeersApi.csproj",
+      "projectUniqueName": "C:\\Users\\savb2\\source\\repos\\BeersApi\\BeersApi.csproj",
       "projectName": "BeersApi",
-      "projectPath": "C:\\Users\\danyl\\Desktop\\8vo\\Aplicaciones moviles hibridas\\BeersApi\\BeersApi\\BeersApi.csproj",
-      "packagesPath": "C:\\Users\\danyl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\danyl\\Desktop\\8vo\\Aplicaciones moviles hibridas\\BeersApi\\BeersApi\\obj\\",
+      "projectPath": "C:\\Users\\savb2\\source\\repos\\BeersApi\\BeersApi.csproj",
+      "packagesPath": "C:\\Users\\savb2\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\savb2\\source\\repos\\BeersApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\danyl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\savb2\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6461,6 +6463,10 @@
           "MongoDB.Driver.Core": {
             "target": "Package",
             "version": "[2.10.2, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[12.0.3, )"
           }
         },
         "imports": [
@@ -6481,7 +6487,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -28,3 +28,35 @@ C:\Users\danyl\Desktop\8vo\Aplicaciones moviles hibridas\BeersApi\BeersApi\bin\D
 C:\Users\danyl\Desktop\8vo\Aplicaciones moviles hibridas\BeersApi\BeersApi\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\danyl\Desktop\8vo\Aplicaciones moviles hibridas\BeersApi\BeersApi\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
 C:\Users\danyl\Desktop\8vo\Aplicaciones moviles hibridas\BeersApi\BeersApi\obj\Debug\netcoreapp3.1\BeersApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\savb2\source\repos\BeersApi\obj\Debug\netcoreapp3.1\BeersApi.dll
+C:\Users\savb2\source\repos\BeersApi\obj\Debug\netcoreapp3.1\BeersApi.pdb
+C:\Users\savb2\source\repos\BeersApi\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\savb2\source\repos\BeersApi\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\savb2\source\repos\BeersApi\bin\Debug\netcoreapp3.1\beer_data_json.json
+C:\Users\savb2\source\repos\BeersApi\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\savb2\source\repos\BeersApi\bin\Debug\netcoreapp3.1\BeersApi.exe
+C:\Users\savb2\source\repos\BeersApi\bin\Debug\netcoreapp3.1\BeersApi.deps.json
+C:\Users\savb2\source\repos\BeersApi\bin\Debug\netcoreapp3.1\BeersApi.runtimeconfig.json
+C:\Users\savb2\source\repos\BeersApi\bin\Debug\netcoreapp3.1\BeersApi.runtimeconfig.dev.json
+C:\Users\savb2\source\repos\BeersApi\bin\Debug\netcoreapp3.1\BeersApi.dll
+C:\Users\savb2\source\repos\BeersApi\bin\Debug\netcoreapp3.1\BeersApi.pdb
+C:\Users\savb2\source\repos\BeersApi\obj\Debug\netcoreapp3.1\BeersApi.csprojAssemblyReference.cache
+C:\Users\savb2\source\repos\BeersApi\obj\Debug\netcoreapp3.1\BeersApi.AssemblyInfoInputs.cache
+C:\Users\savb2\source\repos\BeersApi\obj\Debug\netcoreapp3.1\BeersApi.AssemblyInfo.cs
+C:\Users\savb2\source\repos\BeersApi\obj\Debug\netcoreapp3.1\BeersApi.RazorTargetAssemblyInfo.cache
+C:\Users\savb2\source\repos\BeersApi\obj\Debug\netcoreapp3.1\staticwebassets\BeersApi.StaticWebAssets.Manifest.cache
+C:\Users\savb2\source\repos\BeersApi\obj\Debug\netcoreapp3.1\staticwebassets\BeersApi.StaticWebAssets.xml
+C:\Users\savb2\source\repos\BeersApi\obj\Debug\netcoreapp3.1\BeersApi.genruntimeconfig.cache
+C:\Users\savb2\source\repos\BeersApi\bin\Debug\netcoreapp3.1\DnsClient.dll
+C:\Users\savb2\source\repos\BeersApi\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\savb2\source\repos\BeersApi\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\savb2\source\repos\BeersApi\bin\Debug\netcoreapp3.1\MongoDB.Bson.dll
+C:\Users\savb2\source\repos\BeersApi\bin\Debug\netcoreapp3.1\MongoDB.Driver.dll
+C:\Users\savb2\source\repos\BeersApi\bin\Debug\netcoreapp3.1\MongoDB.Driver.Core.dll
+C:\Users\savb2\source\repos\BeersApi\bin\Debug\netcoreapp3.1\MongoDB.Libmongocrypt.dll
+C:\Users\savb2\source\repos\BeersApi\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\savb2\source\repos\BeersApi\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\savb2\source\repos\BeersApi\bin\Debug\netcoreapp3.1\SharpCompress.dll
+C:\Users\savb2\source\repos\BeersApi\obj\Debug\netcoreapp3.1\BeersApi.csproj.CoreCompileInputs.cache
+C:\Users\savb2\source\repos\BeersApi\obj\Debug\netcoreapp3.1\BeersApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\savb2\source\repos\BeersApi\obj\Debug\netcoreapp3.1\BeersApi.csproj.CopyComplete

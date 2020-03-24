@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
+using System.Net.Http;
+using System.Net.Http.Headers;
 using System.Threading.Tasks;
 using BeersApi.Models;
 using BeersApi.Services;
@@ -18,12 +21,31 @@ namespace BeersApi.Controllers
         {
             _beerService = beerService;
         }
-
         [HttpGet]
+        public string hi()
+        {
+            return 
+                "                Hello World From The API!!!\n" +
+                "|-----------------------------------------------------------|\n" +
+                "|                           Routes                          |\n" +
+                "|-----------------------------------------------------------|\n" +
+                "|/getall           [get]              Return all the beers  |\n" +
+                "|-----------------------------------------------------------|\n" +
+                "|/create           [post]                    Create a beer  |\n" +
+                "|-----------------------------------------------------------|\n" +
+                "|/getbeer{id}      [get]                     Return a beer  |\n" +
+                "|-----------------------------------------------------------|\n" +
+                "|/update{id}       [put]                     Update a beer  |\n" +
+                "|-----------------------------------------------------------|\n" +
+                "|/delete{id}       [delete]                  Delete a beer  |\n" +
+                "|-----------------------------------------------------------|";
+        }
+
+        [HttpGet("getall", Name = "GetAll")]
         public ActionResult<List<Beers>> Get() =>
             _beerService.Get();
 
-        [HttpGet("{id:length(24)}", Name = "GetBeer")]
+        [HttpGet("getbeer{id:length(24)}", Name = "GetBeer")]
         public ActionResult<Beers> Get(string id)
         {
             var beer = _beerService.Get(id);
@@ -36,14 +58,14 @@ namespace BeersApi.Controllers
             return beer;
         }
 
-        [HttpPost]
+        [HttpPost("create")]
         public ActionResult<Beers> Create(Beers beer)
         {
             _beerService.Create(beer);
             return CreatedAtRoute("GetBeer", beer, null);
         }
 
-        [HttpPut("{id:length(24)}")]
+        [HttpPut("update{id:length(24)}")]
         public IActionResult Update(string id, Beers beerIn)
         {
             var beer = _beerService.Get(id);
@@ -52,13 +74,12 @@ namespace BeersApi.Controllers
             {
                 return NotFound();
             }
-
             _beerService.Update(id, beerIn);
 
             return NoContent();
         }
 
-        [HttpDelete("{id:length(24)}")]
+        [HttpDelete("delete{id:length(24)}")]
         public IActionResult Delete(string id)
         {
             var beer = _beerService.Get(id);

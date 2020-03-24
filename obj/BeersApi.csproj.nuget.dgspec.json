@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\danyl\\Desktop\\8vo\\Aplicaciones moviles hibridas\\BeersApi\\BeersApi\\BeersApi.csproj": {}
+    "C:\\Users\\savb2\\source\\repos\\BeersApi\\BeersApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\danyl\\Desktop\\8vo\\Aplicaciones moviles hibridas\\BeersApi\\BeersApi\\BeersApi.csproj": {
+    "C:\\Users\\savb2\\source\\repos\\BeersApi\\BeersApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\danyl\\Desktop\\8vo\\Aplicaciones moviles hibridas\\BeersApi\\BeersApi\\BeersApi.csproj",
+        "projectUniqueName": "C:\\Users\\savb2\\source\\repos\\BeersApi\\BeersApi.csproj",
         "projectName": "BeersApi",
-        "projectPath": "C:\\Users\\danyl\\Desktop\\8vo\\Aplicaciones moviles hibridas\\BeersApi\\BeersApi\\BeersApi.csproj",
-        "packagesPath": "C:\\Users\\danyl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\danyl\\Desktop\\8vo\\Aplicaciones moviles hibridas\\BeersApi\\BeersApi\\obj\\",
+        "projectPath": "C:\\Users\\savb2\\source\\repos\\BeersApi\\BeersApi.csproj",
+        "packagesPath": "C:\\Users\\savb2\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\savb2\\source\\repos\\BeersApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\danyl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\savb2\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -53,6 +53,10 @@
             "MongoDB.Driver.Core": {
               "target": "Package",
               "version": "[2.10.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
             }
           },
           "imports": [
@@ -73,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
