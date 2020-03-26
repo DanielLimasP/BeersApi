@@ -1,5 +1,5 @@
-# BeersApi para la materia de Desarrollo de aplicaciones hibridas
-# Impartida por el Ing. Saul Salcido...
+# BeersApi para la materia de Desarrollo de aplicaciones hibridas.
+# Impartida por el Ing. Saul Salcido.
 
 # Integrantes del Equipo: 
 
@@ -27,13 +27,6 @@ Para probar la aplicacion:
 1. Ir a la carpeta bin/debug/netcoreapp3.1/ y ejecutar BeersApi.exe
 1. Ir a la siguiente direccion: https://localhost:5001/api/beers
 1. Utilizar ARC o Postman para probar put, get, post, delete
-
-* Las rutas para realizar las llamadas al API son las siguientes:
-* /getall           [get]              Return all the beers
-* /create           [post]                    Create a beer 
-* /getbeer{id}      [get]                     Return a beer  
-* /update{id}       [put]                     Update a beer 
-* /delete{id}       [delete]                  Delete a beer
 
 Para editar la aplicación
 * -Es ampliamente recomendable abrir la solución como un proyecto de Visual Studio 2019. 
