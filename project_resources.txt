@@ -1,0 +1,44 @@
+Web API con C#, ASP NET y MongoDB
+
+// Repositorio:
+https://github.com/DanielLimasP/BeersApi
+
+// Guía de Microsoft para crear APIs con ASP.NET y Mongo sobre la que se basa el proyecto:
+https://docs.microsoft.com/es-es/aspnet/core/tutorials/first-mongo-app?view=aspnetcore-3.1&tabs=visual-studio-code
+
+// Obten Visual Studio 2019 (Descargar versión comunitaria):
+https://visualstudio.microsoft.com/es/downloads/
+
+// MongoDB Cloud Atlas. Recomendable usar cuenta de Google para registrarse:
+https://www.mongodb.com/cloud/atlas/register
+
+// Aplicación Postman para probar el API:
+https://www.postman.com/
+
+// .NET Core 3.1 SDK para windows de 64 Bits:
+https://dotnet.microsoft.com/download/dotnet-core/thank-you/sdk-3.1.201-windows-x64-installer
+
+// ASP.NET Core 3.1 Runtime Hosting Bundle (Incluye .NET Core Runtime y soporte para IIS)
+https://dotnet.microsoft.com/download/dotnet-core/thank-you/runtime-aspnetcore-3.1.3-windows-hosting-bundle-installer
+
+// Robo3T para Windows (Descargar solo Robo3T, ya que Studio3T es de paga):
+https://robomongo.org/download
+
+// Mongo community Edition (Incluye MongoDB localserver y shell. Instalar en caso de querer trabajar localmente):
+https://www.mongodb.com/download-center/community?jmp=docs
+
+// Dataset de OpenBreweryDB (Para utilizar este dataset hay que crear un nuevo modelo):
+https://api.openbrewerydb.org/breweries
+
+// Dataset utilizado para la solución (El dataset está contenido dentro del repositorio):
+https://github.com/DanielLimasP/BeersApi/blob/master/beer_data_json.json
+
+
+
+
+
+
+
+
+
+
