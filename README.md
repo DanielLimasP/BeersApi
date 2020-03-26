@@ -1,19 +1,34 @@
 # BeersApi para la materia de Desarrollo de aplicaciones hibridas
 # Impartida por el Ing. Saul Salcido...
 
-TODO: 
+# Integrantes del Equipo: 
 
-* -Probar Update con verbo PUT o crear funcion de Update que utilice PATCH
-* -Probar verbo DELETE
+Amed Daniel Limas Palma
+Sergio Andres Muños Castillo
+Jose Daniel Renteria Silva
+David Servando Torres Ortega 
+Sergio Alberto Varela Bencomo
+
+# Tecnologías utilizadas
+
+* -C#
+* -ASP.NET
+* -MongoDB
+
+// TODO: 
+
 * -Construir aplicacion HTML sencilla de lado del cliente para acceder al API
 * -Crear interfaz que permita al usuario subir y consultar imagenes
 * -Eventual deploy de la aplicacion en AWS, Azure o Heroku
 
 Para probar la aplicacion: 
 1. Clonar o descargar el repositorio
+1. Es necesario tener instalado .NET Core 3.1 para que se pueda ejecutar el programa
 1. Ir a la carpeta bin/debug/netcoreapp3.1/ y ejecutar BeersApi.exe
 1. Ir a la siguiente direccion: https://localhost:5001/api/beers
 1. Utilizar ARC o Postman para probar put, get, post, delete
 
-El get puede traer todas las cervezas o solo una. Para traer una cerveza: https://localhost:5001/api/beers/{id}
-Las funciones Update y Delete funcionan de la misma manera.
+Para editar la aplicación
+* -Es ampliamente recomendable abrir la solución como un proyecto de Visual Studio 2019. 
+* -Ir a la carpeta raíz del repo y abrir BeersApi.sln
+
