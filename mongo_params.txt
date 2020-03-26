@@ -1,8 +1,8 @@
 -Connection String:
-mongodb+srv://danyl:xSFOukDZDKHzqcuO@cluster0-ezqai.mongodb.net/test?retryWrites=true&w=majority
+mongodb+srv://danyl:4I26PdCu6KO4twGf@cluster0-ezqai.mongodb.net/test?retryWrites=true&w=majority
 
 -User:
 danyl
 
 -Password:
-xSFOukDZDKHzqcuO
+4I26PdCu6KO4twGf

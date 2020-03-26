@@ -6412,19 +6412,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\savb2\\.nuget\\packages\\": {}
+    "C:\\Users\\danyl\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\savb2\\source\\repos\\BeersApi\\BeersApi.csproj",
+      "projectUniqueName": "C:\\Users\\danyl\\Desktop\\8vo\\Aplicaciones moviles hibridas\\BeersApi\\BeersApi\\BeersApi.csproj",
       "projectName": "BeersApi",
-      "projectPath": "C:\\Users\\savb2\\source\\repos\\BeersApi\\BeersApi.csproj",
-      "packagesPath": "C:\\Users\\savb2\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\savb2\\source\\repos\\BeersApi\\obj\\",
+      "projectPath": "C:\\Users\\danyl\\Desktop\\8vo\\Aplicaciones moviles hibridas\\BeersApi\\BeersApi\\BeersApi.csproj",
+      "packagesPath": "C:\\Users\\danyl\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\danyl\\Desktop\\8vo\\Aplicaciones moviles hibridas\\BeersApi\\BeersApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\savb2\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\danyl\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6487,7 +6487,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
       }
     }
   }
