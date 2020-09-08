@@ -15,12 +15,6 @@ Sergio Alberto Varela Bencomo
 * -ASP.NET
 * -MongoDB
 
-// TODO: 
-
-* -Construir aplicacion HTML sencilla de lado del cliente para acceder al API
-* -Crear interfaz que permita al usuario subir y consultar imagenes
-* -Eventual deploy de la aplicacion en AWS, Azure o Heroku
-
 Para probar la aplicacion: 
 1. Clonar o descargar el repositorio
 1. Es necesario tener instalado .NET Core 3.1 para que se pueda ejecutar el programa
